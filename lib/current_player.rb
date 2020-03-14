@@ -4,8 +4,6 @@ def turn_count(board)
       puts "#{turn}"
       if turn == "X" || turn == "O"
           counter +=1
-      else
-    turn
-    end
+      end
   end
 end
